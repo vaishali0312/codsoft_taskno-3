@@ -44,7 +44,6 @@ class ATM {
         this.scanner = new Scanner(System.in);
     }
 
-    // Method to display the ATM menu
     public void displayMenu() {
         while (true) {
             System.out.println("\nWelcome to the ATM");
@@ -105,7 +104,7 @@ public class ATMSystem {
     public static void main(String[] args) {
        
         BankAccount account = new BankAccount(500.00); 
-        // Create an ATM with the user's bank account
+     
         ATM atm = new ATM(account);
 
 
